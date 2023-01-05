@@ -49,9 +49,6 @@ article{
     padding: 5px;
     font-size: 18px;
 }
-.main-box .input-box:focus{
-    /* border: 2px solid red; */
-}
 .main-box .input-box{
      flex: 1;
     border: 2px solid rgb(32, 221, 215);

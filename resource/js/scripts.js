@@ -4,8 +4,8 @@ const todo = document.getElementById("todo")
 console.log(todoList);
 function onClick() {
     var e =todo.value;
-    if (todoList.includes(e)){
-        alert('Đã tồn tại!!!');
+    if (todoList.includes(e) || e == ''){
+        alert('!!! ERRORS !!!');
     } else {
         todoList.push(e);
         num = todoList.length - 1;
