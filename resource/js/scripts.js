@@ -9,7 +9,7 @@ function onClick() {
     } else {
         todoList.push(e);
         num = todoList.length - 1;
-        document.getElementById("cal").innerHTML += '<div class="box history-box" id="num'+num+'"><div class="todo">'+e+'</div><input class="btn" type="button" value="x" onclick="event.preventDefault; del('+num+')"></div>';
+        document.getElementById("cal").innerHTML += '<div class="box history-box" id="num'+num+'"><div class="todo">'+e+'</div><input class="btn" type="button" value="Cancel" onclick="event.preventDefault; del('+num+')"></div>';
         alert('Thêm vào thành công');
     }
 }
